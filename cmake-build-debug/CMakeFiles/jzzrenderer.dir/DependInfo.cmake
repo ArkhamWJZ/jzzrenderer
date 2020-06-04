@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/arkham/jzzrenderer/Vector.cpp" "/Users/arkham/jzzrenderer/cmake-build-debug/CMakeFiles/jzzrenderer.dir/Vector.cpp.o"
+  "/Users/arkham/jzzrenderer/main.cpp" "/Users/arkham/jzzrenderer/cmake-build-debug/CMakeFiles/jzzrenderer.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

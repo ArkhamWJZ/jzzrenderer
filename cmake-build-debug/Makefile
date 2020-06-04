@@ -123,32 +123,32 @@ jzzrenderer/fast:
 	$(MAKE) -f CMakeFiles/jzzrenderer.dir/build.make CMakeFiles/jzzrenderer.dir/build
 .PHONY : jzzrenderer/fast
 
-Vector.o: Vector.cpp.o
+main.o: main.cpp.o
 
-.PHONY : Vector.o
+.PHONY : main.o
 
 # target to build an object file
-Vector.cpp.o:
-	$(MAKE) -f CMakeFiles/jzzrenderer.dir/build.make CMakeFiles/jzzrenderer.dir/Vector.cpp.o
-.PHONY : Vector.cpp.o
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/jzzrenderer.dir/build.make CMakeFiles/jzzrenderer.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-Vector.i: Vector.cpp.i
+main.i: main.cpp.i
 
-.PHONY : Vector.i
+.PHONY : main.i
 
 # target to preprocess a source file
-Vector.cpp.i:
-	$(MAKE) -f CMakeFiles/jzzrenderer.dir/build.make CMakeFiles/jzzrenderer.dir/Vector.cpp.i
-.PHONY : Vector.cpp.i
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/jzzrenderer.dir/build.make CMakeFiles/jzzrenderer.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-Vector.s: Vector.cpp.s
+main.s: main.cpp.s
 
-.PHONY : Vector.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-Vector.cpp.s:
-	$(MAKE) -f CMakeFiles/jzzrenderer.dir/build.make CMakeFiles/jzzrenderer.dir/Vector.cpp.s
-.PHONY : Vector.cpp.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/jzzrenderer.dir/build.make CMakeFiles/jzzrenderer.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... jzzrenderer"
-	@echo "... Vector.o"
-	@echo "... Vector.i"
-	@echo "... Vector.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

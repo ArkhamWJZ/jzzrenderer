@@ -57,27 +57,27 @@ include CMakeFiles/jzzrenderer.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/jzzrenderer.dir/flags.make
 
-CMakeFiles/jzzrenderer.dir/Vector.cpp.o: CMakeFiles/jzzrenderer.dir/flags.make
-CMakeFiles/jzzrenderer.dir/Vector.cpp.o: ../Vector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arkham/jzzrenderer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/jzzrenderer.dir/Vector.cpp.o"
-	/usr/local/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/jzzrenderer.dir/Vector.cpp.o -c /Users/arkham/jzzrenderer/Vector.cpp
+CMakeFiles/jzzrenderer.dir/main.cpp.o: CMakeFiles/jzzrenderer.dir/flags.make
+CMakeFiles/jzzrenderer.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arkham/jzzrenderer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/jzzrenderer.dir/main.cpp.o"
+	/usr/local/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/jzzrenderer.dir/main.cpp.o -c /Users/arkham/jzzrenderer/main.cpp
 
-CMakeFiles/jzzrenderer.dir/Vector.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/jzzrenderer.dir/Vector.cpp.i"
-	/usr/local/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arkham/jzzrenderer/Vector.cpp > CMakeFiles/jzzrenderer.dir/Vector.cpp.i
+CMakeFiles/jzzrenderer.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/jzzrenderer.dir/main.cpp.i"
+	/usr/local/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arkham/jzzrenderer/main.cpp > CMakeFiles/jzzrenderer.dir/main.cpp.i
 
-CMakeFiles/jzzrenderer.dir/Vector.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/jzzrenderer.dir/Vector.cpp.s"
-	/usr/local/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arkham/jzzrenderer/Vector.cpp -o CMakeFiles/jzzrenderer.dir/Vector.cpp.s
+CMakeFiles/jzzrenderer.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/jzzrenderer.dir/main.cpp.s"
+	/usr/local/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arkham/jzzrenderer/main.cpp -o CMakeFiles/jzzrenderer.dir/main.cpp.s
 
 # Object files for target jzzrenderer
 jzzrenderer_OBJECTS = \
-"CMakeFiles/jzzrenderer.dir/Vector.cpp.o"
+"CMakeFiles/jzzrenderer.dir/main.cpp.o"
 
 # External object files for target jzzrenderer
 jzzrenderer_EXTERNAL_OBJECTS =
 
-jzzrenderer: CMakeFiles/jzzrenderer.dir/Vector.cpp.o
+jzzrenderer: CMakeFiles/jzzrenderer.dir/main.cpp.o
 jzzrenderer: CMakeFiles/jzzrenderer.dir/build.make
 jzzrenderer: CMakeFiles/jzzrenderer.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/arkham/jzzrenderer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable jzzrenderer"

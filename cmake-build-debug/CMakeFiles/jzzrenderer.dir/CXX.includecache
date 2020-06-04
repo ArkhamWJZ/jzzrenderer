@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/arkham/jzzrenderer/Vector.h
+bits/stdc++.h
+-
+
+/Users/arkham/jzzrenderer/main.cpp
+Vector.h
+/Users/arkham/jzzrenderer/Vector.h
+bits/stdc++.h
+-
+
