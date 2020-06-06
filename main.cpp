@@ -35,7 +35,7 @@ void line_slope(vec2f a, vec2f b, vector<vec3f>& fram_buf, vec3f color){
         }
     }
 }
-void line(vec2f& a, vec2f& b, vector<vec3f>& fram_buf, vec3f color){
+void line(vec2f a, vec2f b, vector<vec3f>& fram_buf, vec3f color){
     bool isSwap = false;
     if(abs(a.x - b.x) < abs(a.y - b.y)){//no steep
         swap(a.x,a.y);
@@ -43,32 +43,40 @@ void line(vec2f& a, vec2f& b, vector<vec3f>& fram_buf, vec3f color){
         isSwap = true;
     }
     if(a.x > b.x){//left-to-right
-        swap(a,b);
+        swap(a.x,b.x);
+        swap(a.y,b.y);
     }
-    float k = abs((b.y - a.y)/(b.x - a.x));
+    int dx = b.x - a.x;
+    int dy = b.y - a.y;
+    float k = abs((b.y - a.y)/float(b.x - a.x));
+
     float error = 0;
     int y = a.y;
-    for (int i = a.x; i < b.x; ++i) {
-        if(isSwap){
+    if(isSwap){
+        for (int i = a.x; i < b.x; ++i) {
+            //cout<<y<<","<<i<<endl;
             set_pixel(y, i, color, fram_buf);
-        } else {
-            set_pixel(i, y, color, fram_buf);
+            error += k;
+            if(error > 0.5){
+                y += (b.y > a.y ? 1:-1);
+                error -= 1.f;
+            }
         }
-        error += k;
-        if(error > 0.5){
-            y += (b.y-a.y > 0 ? 1:-1);
-            error -= 1;
+    } else {
+        for (int i = a.x; i < b.x; ++i) {
+            set_pixel(i, y, color, fram_buf);
+            error += k;
+            if(error > 0.5){
+                y += (b.y > a.y ? 1:-1);
+                error -= 1.f;
+            }
         }
     }
 }
 int main(){
     vector<vec3f> fram_buffer;
     fram_buffer.resize(height*width);
-    vec3f red = {0,1,0};
-
-    vec2f x1 = {0,700};
-    vec2f x2 = {350,350};
-    line(x1, x2, fram_buffer, red);
+   
 
     cv::Mat image(width, height, CV_32FC3, fram_buffer.data());
     cv::Mat RGBImage;
