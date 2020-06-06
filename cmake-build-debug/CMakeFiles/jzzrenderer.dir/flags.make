@@ -6,5 +6,5 @@ CXX_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sd
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/arkham/jzzrenderer/. 
+CXX_INCLUDES = -I/Users/arkham/jzzrenderer/. -isystem /anaconda3/include -isystem /anaconda3/include/opencv 
 
