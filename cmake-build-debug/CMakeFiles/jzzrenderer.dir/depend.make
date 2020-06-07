@@ -3,6 +3,7 @@
 
 CMakeFiles/jzzrenderer.dir/main.cpp.o: ../Vector.h
 CMakeFiles/jzzrenderer.dir/main.cpp.o: ../main.cpp
+CMakeFiles/jzzrenderer.dir/main.cpp.o: ../my_GL.h
 CMakeFiles/jzzrenderer.dir/main.cpp.o: /anaconda3/include/opencv/cxcore.h
 CMakeFiles/jzzrenderer.dir/main.cpp.o: /anaconda3/include/opencv2/calib3d.hpp
 CMakeFiles/jzzrenderer.dir/main.cpp.o: /anaconda3/include/opencv2/calib3d/calib3d_c.h
@@ -133,4 +134,8 @@ CMakeFiles/jzzrenderer.dir/main.cpp.o: /anaconda3/include/opencv2/videostab/ring
 CMakeFiles/jzzrenderer.dir/main.cpp.o: /anaconda3/include/opencv2/videostab/stabilizer.hpp
 CMakeFiles/jzzrenderer.dir/main.cpp.o: /anaconda3/include/opencv2/videostab/wobble_suppression.hpp
 CMakeFiles/jzzrenderer.dir/main.cpp.o: /anaconda3/include/opencv2/xfeatures2d/cuda.hpp
+
+CMakeFiles/jzzrenderer.dir/my_GL.cpp.o: ../Vector.h
+CMakeFiles/jzzrenderer.dir/my_GL.cpp.o: ../my_GL.cpp
+CMakeFiles/jzzrenderer.dir/my_GL.cpp.o: ../my_GL.h
 

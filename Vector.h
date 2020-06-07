@@ -86,7 +86,9 @@ template<int Len,int Dim,typename T> vec<Len,T> embed(const vec<Dim,T> &v, T fil
 template <typename T> vec<3,T> cross(vec<3,T> v1, vec<3,T> v2) {
     return vec<3,T>(v1.y*v2.z - v1.z*v2.y, v1.z*v2.x - v1.x*v2.z, v1.x*v2.y - v1.y*v2.x);
 }
-
+template <typename T> T cross2D(vec<2,T> v1, vec<2,T> v2) {
+    return v1.x*v2.y - v1.y*v2.x;
+}
 template <int Dim, typename T> std::ostream& operator<<(std::ostream& out, vec<Dim,T>& v) {
     for(unsigned int i=0; i<Dim; i++) {
         out << v[i] << " " ;

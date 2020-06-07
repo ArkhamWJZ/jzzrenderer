@@ -4,6 +4,7 @@
 CMakeFiles/jzzrenderer.dir/main.cpp.o
  /Users/arkham/jzzrenderer/Vector.h
  /Users/arkham/jzzrenderer/main.cpp
+ /Users/arkham/jzzrenderer/my_GL.h
  /anaconda3/include/opencv/cxcore.h
  /anaconda3/include/opencv2/calib3d.hpp
  /anaconda3/include/opencv2/calib3d/calib3d_c.h
@@ -134,3 +135,7 @@ CMakeFiles/jzzrenderer.dir/main.cpp.o
  /anaconda3/include/opencv2/videostab/stabilizer.hpp
  /anaconda3/include/opencv2/videostab/wobble_suppression.hpp
  /anaconda3/include/opencv2/xfeatures2d/cuda.hpp
+CMakeFiles/jzzrenderer.dir/my_GL.cpp.o
+ /Users/arkham/jzzrenderer/Vector.h
+ /Users/arkham/jzzrenderer/my_GL.cpp
+ /Users/arkham/jzzrenderer/my_GL.h

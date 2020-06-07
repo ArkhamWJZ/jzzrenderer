@@ -74,12 +74,12 @@ preinstall:
 CMakeFiles/jzzrenderer.dir/all:
 	$(MAKE) -f CMakeFiles/jzzrenderer.dir/build.make CMakeFiles/jzzrenderer.dir/depend
 	$(MAKE) -f CMakeFiles/jzzrenderer.dir/build.make CMakeFiles/jzzrenderer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arkham/jzzrenderer/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target jzzrenderer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/arkham/jzzrenderer/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target jzzrenderer"
 .PHONY : CMakeFiles/jzzrenderer.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/jzzrenderer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arkham/jzzrenderer/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arkham/jzzrenderer/cmake-build-debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/jzzrenderer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/arkham/jzzrenderer/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/jzzrenderer.dir/rule

@@ -150,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/jzzrenderer.dir/build.make CMakeFiles/jzzrenderer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+my_GL.o: my_GL.cpp.o
+
+.PHONY : my_GL.o
+
+# target to build an object file
+my_GL.cpp.o:
+	$(MAKE) -f CMakeFiles/jzzrenderer.dir/build.make CMakeFiles/jzzrenderer.dir/my_GL.cpp.o
+.PHONY : my_GL.cpp.o
+
+my_GL.i: my_GL.cpp.i
+
+.PHONY : my_GL.i
+
+# target to preprocess a source file
+my_GL.cpp.i:
+	$(MAKE) -f CMakeFiles/jzzrenderer.dir/build.make CMakeFiles/jzzrenderer.dir/my_GL.cpp.i
+.PHONY : my_GL.cpp.i
+
+my_GL.s: my_GL.cpp.s
+
+.PHONY : my_GL.s
+
+# target to generate assembly for a file
+my_GL.cpp.s:
+	$(MAKE) -f CMakeFiles/jzzrenderer.dir/build.make CMakeFiles/jzzrenderer.dir/my_GL.cpp.s
+.PHONY : my_GL.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... my_GL.o"
+	@echo "... my_GL.i"
+	@echo "... my_GL.s"
 .PHONY : help
 
 

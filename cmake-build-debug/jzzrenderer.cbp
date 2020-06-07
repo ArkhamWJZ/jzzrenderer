@@ -104,6 +104,12 @@
 		<Unit filename="/Users/arkham/jzzrenderer/main.cpp">
 			<Option target="jzzrenderer"/>
 		</Unit>
+		<Unit filename="/Users/arkham/jzzrenderer/my_GL.cpp">
+			<Option target="jzzrenderer"/>
+		</Unit>
+		<Unit filename="/Users/arkham/jzzrenderer/my_GL.h">
+			<Option target="jzzrenderer"/>
+		</Unit>
 		<Unit filename="/Users/arkham/jzzrenderer/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

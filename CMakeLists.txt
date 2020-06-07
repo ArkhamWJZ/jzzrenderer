@@ -7,5 +7,7 @@ include_directories(.)
 
 add_executable(jzzrenderer
         Vector.h
+        my_GL.h
+        my_GL.cpp
         main.cpp)
 target_link_libraries(jzzrenderer ${OpenCV_LIBRARIES})

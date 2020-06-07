@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/jzzrenderer.dir/main.cpp.o"
+  "CMakeFiles/jzzrenderer.dir/my_GL.cpp.o"
   "jzzrenderer"
   "jzzrenderer.pdb"
 )
