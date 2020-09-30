@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/arkham/Desktop/TinyRendering/lesson5/geometry.cpp
+vector
+-
+cassert
+-
+cmath
+-
+iostream
+-
+geometry.h
+/Users/arkham/Desktop/TinyRendering/lesson5/geometry.h
+
+/Users/arkham/Desktop/TinyRendering/lesson5/geometry.h
+cmath
+-
+vector
+-
+

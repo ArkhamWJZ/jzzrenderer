@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/6_2.dir/geometry.cpp.o CMakeFiles/6_2.dir/main.cpp.o CMakeFiles/6_2.dir/model.cpp.o CMakeFiles/6_2.dir/our_gl.cpp.o CMakeFiles/6_2.dir/tgaimage.cpp.o  -o 6_2 

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TinyRendering"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/arkham/Desktop/TinyRendering/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/arkham/Desktop/TinyRendering/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/arkham/Desktop/TinyRendering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/arkham/Desktop/TinyRendering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/arkham/Desktop/TinyRendering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/arkham/Desktop/TinyRendering/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/arkham/Desktop/TinyRendering/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/arkham/Desktop/TinyRendering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/arkham/Desktop/TinyRendering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/arkham/Desktop/TinyRendering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/arkham/Desktop/TinyRendering/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/arkham/Desktop/TinyRendering/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/arkham/Desktop/TinyRendering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/arkham/Desktop/TinyRendering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/arkham/Desktop/TinyRendering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TinyRendering">
+				<Option output="/Users/arkham/Desktop/TinyRendering/cmake-build-debug/TinyRendering" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arkham/Desktop/TinyRendering/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/arkham/Desktop/TinyRendering/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/arkham/Desktop/TinyRendering/cmake-build-debug/Makefile&quot;  VERBOSE=1 TinyRendering"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/arkham/Desktop/TinyRendering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/arkham/Desktop/TinyRendering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/arkham/Desktop/TinyRendering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TinyRendering/fast">
+				<Option output="/Users/arkham/Desktop/TinyRendering/cmake-build-debug/TinyRendering" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/arkham/Desktop/TinyRendering/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/arkham/Desktop/TinyRendering/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/arkham/Desktop/TinyRendering/cmake-build-debug/Makefile&quot;  VERBOSE=1 TinyRendering/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/arkham/Desktop/TinyRendering/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/arkham/Desktop/TinyRendering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/arkham/Desktop/TinyRendering/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/arkham/Desktop/TinyRendering/Vector.cpp">
+			<Option target="TinyRendering"/>
+		</Unit>
+		<Unit filename="/Users/arkham/Desktop/TinyRendering/Vector.hpp">
+			<Option target="TinyRendering"/>
+		</Unit>
+		<Unit filename="/Users/arkham/Desktop/TinyRendering/geometry.cpp">
+			<Option target="TinyRendering"/>
+		</Unit>
+		<Unit filename="/Users/arkham/Desktop/TinyRendering/geometry.h">
+			<Option target="TinyRendering"/>
+		</Unit>
+		<Unit filename="/Users/arkham/Desktop/TinyRendering/main.cpp">
+			<Option target="TinyRendering"/>
+		</Unit>
+		<Unit filename="/Users/arkham/Desktop/TinyRendering/model.cpp">
+			<Option target="TinyRendering"/>
+		</Unit>
+		<Unit filename="/Users/arkham/Desktop/TinyRendering/model.h">
+			<Option target="TinyRendering"/>
+		</Unit>
+		<Unit filename="/Users/arkham/Desktop/TinyRendering/tgaimage.cpp">
+			<Option target="TinyRendering"/>
+		</Unit>
+		<Unit filename="/Users/arkham/Desktop/TinyRendering/tgaimage.h">
+			<Option target="TinyRendering"/>
+		</Unit>
+		<Unit filename="/Users/arkham/Desktop/TinyRendering/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

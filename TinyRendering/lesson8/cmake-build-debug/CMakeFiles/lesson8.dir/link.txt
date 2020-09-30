@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/lesson8.dir/geometry.cpp.o CMakeFiles/lesson8.dir/main.cpp.o CMakeFiles/lesson8.dir/model.cpp.o CMakeFiles/lesson8.dir/our_gl.cpp.o CMakeFiles/lesson8.dir/tgaimage.cpp.o  -o lesson8 
