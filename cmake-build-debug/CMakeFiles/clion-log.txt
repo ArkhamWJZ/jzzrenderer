@@ -1,4 +1,0 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -D CMAKE_CXX_COMPILER=/usr/local/bin/g++-9 -G "CodeBlocks - Unix Makefiles" /Users/arkham/jzzrenderer
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/arkham/jzzrenderer/cmake-build-debug

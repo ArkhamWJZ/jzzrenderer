@@ -1,3 +1,0 @@
-/Users/arkham/Desktop/TinyRendering/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/arkham/Desktop/TinyRendering/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/arkham/Desktop/TinyRendering/cmake-build-debug/CMakeFiles/TinyRendering.dir
