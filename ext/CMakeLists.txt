@@ -5,6 +5,12 @@ set(NANOGUI_BUILD_PYTHON  OFF CACHE BOOL " " FORCE)
 add_subdirectory(nanogui)
 set_property(TARGET glfw glfw_objects nanogui nanogui-obj PROPERTY FOLDER "dependencies")
 
+# Build the pugixml parser
+add_library(pugixml STATIC pugixml/src/pugixml.cpp)
+set_property(TARGET pugixml PROPERTY
+   LIBRARY_OUTPUT_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/pugixml")
+set_property(TARGET pugixml PROPERTY FOLDER "dependencies")
+
 set(GLFW_INCLUDE_DIR
     ${CMAKE_CURRENT_SOURCE_DIR}/nanogui/ext/glfw/include)
 set(GLEW_INCLUDE_DIR
@@ -17,6 +23,10 @@ set(NANOGUI_INCLUDE_DIR
     ${CMAKE_CURRENT_SOURCE_DIR}/nanogui/include)
 set(EIGEN_INCLUDE_DIR
     ${CMAKE_CURRENT_SOURCE_DIR}/nanogui/ext/eigen)
+set(FILESYSTEM_INCLUDE_DIR
+    ${CMAKE_CURRENT_SOURCE_DIR}/filesystem)
+set(PUGIXML_INCLUDE_DIR
+    ${CMAKE_CURRENT_SOURCE_DIR}/pugixml/src)
 
 
 # Compile remainder of the codebase with compiler warnings turned on
@@ -39,9 +49,10 @@ elseif (CMAKE_CXX_COMPILER_ID MATCHES "Clang" OR CMAKE_CXX_COMPILER_ID MATCHES "
 endif()
 
 set(CompilerFlags
-        GLFW_INCLUDE_DIR GLEW_INCLUDE_DIR
-        NANOVG_INCLUDE_DIR NANOGUI_EXTRA_INCS NANOGUI_EXTRA_DEFS
+      GLFW_INCLUDE_DIR GLEW_INCLUDE_DIR
+      NANOVG_INCLUDE_DIR NANOGUI_EXTRA_INCS NANOGUI_EXTRA_DEFS
 	    NANOGUI_EXTRA_LIBS NANOGUI_INCLUDE_DIR EIGEN_INCLUDE_DIR
+      FILESYSTEM_INCLUDE_DIR PUGIXML_INCLUDE_DIR
 )
 foreach(CompilerFlag ${CompilerFlags})
   set(${CompilerFlag} "${${CompilerFlag}}" PARENT_SCOPE)
