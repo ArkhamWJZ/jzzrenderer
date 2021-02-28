@@ -13,6 +13,10 @@ endif ()
 add_subdirectory(ext ext_build)
 
 include_directories(
+        # Portable filesystem API
+        SYSTEM ${FILESYSTEM_INCLUDE_DIR}
+        # PugiXML parser
+        ${PUGIXML_INCLUDE_DIR}
         # Eigen linear algebra library
         SYSTEM ${EIGEN_INCLUDE_DIR}
         # GLFW library for OpenGL context creation
@@ -26,7 +30,7 @@ include_directories(
         SYSTEM ${NANOGUI_EXTRA_INCS}
 )
 
-add_executable(jzzrenderer
+add_executable(plasticine
 
 
  # Source code files
